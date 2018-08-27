@@ -1,5 +1,6 @@
 ## 基本python装饰器（带参数）
-'''python
+
+```python
 
 import time 
 
@@ -25,4 +26,10 @@ if __name__ == '__main__':
 	c(4,6)
 	print ('c.__name__ is %s',c.__name__)
 	
-'''
+```
+
+## 装饰器实现的单例模式
+```python
+
+def singleton(cla, *args,**kwargs):
+```
