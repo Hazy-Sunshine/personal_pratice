@@ -1,3 +1,6 @@
+## 基本python装饰器（带参数）
+'''python
+
 import time 
 
 def timer(func):
@@ -21,3 +24,5 @@ if __name__ == '__main__':
 	c = count
 	c(4,6)
 	print ('c.__name__ is %s',c.__name__)
+	
+'''
